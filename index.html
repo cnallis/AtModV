@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="pt-br">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aNallise - cuscuz</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+</head>
+
+<body>
+    <header id="home">
+        <div class="container">
+            <img src="./logo.png" alt="logo" />
+            <div class="menu-section">
+                <div class="container-menu">
+                    <input type="checkbox" id="checkbox-menu" />
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#articles">Artigos</a>
+                        </li>
+                        <li>
+                            <a href="#seclow">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-main">
+            <div>
+                <h2><span>Inscreva-se agora</span></h2>
+                <h2>na Newsletter</h2>
+                <h3>
+                    Uma viagem de transformação da vida, partindo da cozinha, e sem complicações!
+                </h3>
+                <form>
+                    <input type="text" placeholder="Nome" />
+                    <input type="email" placeholder="E-mail" />
+                    <input type="submit" value="Enviar" />
+                </form>
+            </div>
+            <img src="./img.jpg" alt="" />
+        </div>
+    </main>
+    <section id="articles" class="cards">
+        <div class="card">
+            <div class="image">
+                <img src="./paulista.jpg" />
+            </div>
+
+            <div class="content">
+                <p class="title text--medium">
+                    <b>Cuscuz Paulista</b>, feito com farinha de milho moída, é o tipo de cuscuz mais fácil de ser
+                    encontrado
+                    em supermercados.
+                    Pode ser preparado com farinha de mandioca, de arroz ou aipim, porém a de mandioca é o
+                    elemento principal na preparação desse cuscuz. As receitas podem incluir diversos tipos de recheios,
+                    vai da sua imaginação. Os mais comuns são de sardinha e atum.
+                </p>
+                <div class="info">
+                    <p class="text--medium">33 Min</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./nordestino.jpg" />
+            </div>
+
+            <div class="content">
+                <p class="title text--medium">
+                    <b>Cuscuz Nordestino</b>, costuma ser preparado no vapor, somente com sal e levemente umedecido com
+                    água. É
+                    uma receita
+                    muito fácil de preparar e uma ótima opção para ter um café da manhã bem reforçado. Além disso,
+                    também existem panelas que ajudam muito no preparo, chamadas de cuscuzeiras. Elas contam com uma
+                    grelha onde a farinha é colocada para assar em banho maria. É fácil de usar e facilita muito mais na
+                    hora de desenformar o cuscuz.
+                </p>
+                <div class="info">
+                    <p class="text--medium">34 Min</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./marroquino.jpg" />
+            </div>
+
+            <div class="content">
+                <p class="title text--medium">
+                    <b>Cuscuz Marroquino</b>, este também ganhou espaço na culinária brasileira. Diferente dos demais,
+                    ele é
+                    feito
+                    com sêmola de trigo e pode levar ingredientes para fazer salgado (como legumes, caldos, carnes e
+                    temperos) e também doces (açúcar, canela, damasco e iogurtes).
+                </p>
+                <div class="info">
+                    <p class="text--medium">23 Min</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./tapioca.jpg" />
+            </div>
+
+            <div class="content">
+                <p class="title text--medium">
+                    <b>Cuscuz de Tapioca</b>, ele é feito com a farinha de tapioca em flocos e é uma opção perfeita para
+                    ser
+                    servido como sobremesa.
+                </p>
+                <div class="info">
+                    <p class="text--medium">17 Min</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="seclow">
+        <div id="container-top">
+            <h1>Contate-nos</h1>
+            <p>Ficou com alguma dúvida? Teremos um grande prazer em ajudá-lo!</p>
+            <P>Confira nossas páginas de ajuda e encontre as informações que procura.</P>
+            <ul>
+                <li><a href="https://www.google.com/" target="_blank">Perguntas frequentes</a></li>
+                <li><a href="https://receitas.globo.com/" target="_blank">Nossas receitas</a></li>
+            </ul>
+            <p>Caso precise de mais esclarecimentos, envie sua mensagem através do formulário abaixo que responderemos o
+                mais breve possível.</p>
+        </div>    
+        <form id="forml" action="#" method="get">
+            <div class="container-left">
+                <label for="nome">Nome completo:</label>
+                <input type="text" name="nome" id="nome" placeholder="Carlos Alberto..."></input>
+                <label for="apelido">Apelido:</label>
+                <input type="text" name="apelido" id="apelido" placeholder="Beto"></input>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="cazalber@anallise.com"></input>
+                <label for="telefone">telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(11) 98877-6655"><input>
+                <label for="iassuntos">Assunto:</label>
+                <input list="assuntos" id="iassuntos" name="assuntos">
+                <datalist id="assuntos">
+                    <option value="Elogios/Reclamações">
+                    <option value="Receitas">
+                    <option value="Publicidade">
+                    <option value="Promoções">
+                </datalist>
+             </div>
+            <div class="container-right">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="texto" name="texto" rows="10" cols="40">Olá! Me chamo ...</textarea>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </footer>
+</body>
+
+</html>
